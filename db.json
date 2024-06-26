@@ -1,0 +1,227 @@
+{
+  "user": [
+  ],
+  "product": [
+    {
+      "id": "1",
+      "imageURL": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MME73?wid=400&hei=400&fmt=jpeg&qlt=90&.v=1632861342000",
+      "brand": "Apple",
+      "product": "Apple AirPods Pro (2nd generation) with MagSafe Case",
+      "category": "AirPods",
+      "price": 22499,
+      "strikedOffPrice": 24999
+    },
+    {
+      "id": "2",
+      "imageURL": "https://www.apple.com/v/airpods-max/f/images/overview/design_colors_gray_front__bgkzj4cnbafm_large.jpg",
+      "brand": "Apple",
+      "product": "Apple AirPods Pro Max Headphones - Space Gray",
+      "category": "AirPods Max",
+      "price": 59900,
+      "strikedOffPrice": 65000
+    },
+    {
+      "id": "3",
+      "imageURL": "https://images.samsung.com/is/image/samsung/assets/in/audio-sound/galaxy-buds/galaxy-buds-pro/galaxy-buds-pro-switching-buds-open.png?$ORIGIN_PNG$",
+      "brand": "SAMSUNG",
+      "product": "Galaxy Buds2 Pro",
+      "category": "Buds",
+      "price": 9999,
+      "strikedOffPrice": 11000
+    },
+    {
+      "id": "4",
+      "imageURL": "https://images.samsung.com/is/image/samsung/p6pim/in/sm-r400nzaains/gallery/in-galaxy-buds-fe-480225-sm-r400nzaains-538531506?$684_547_PNG$",
+      "brand": "LEVIS",
+      "product": "Galaxy Buds FE",
+      "category": "Buds",
+      "price": 9599,
+      "strikedOffPrice": 10000
+    },
+    {
+      "id": "5",
+      "imageURL": "https://m.media-amazon.com/images/I/71x1ljuwF8L._SX679_.jpg",
+      "brand": "JBL",
+      "product": "JBL Tune 760NC, Wireless Over Ear Active",
+      "category": "Headphones",
+      "price": 4999,
+      "strikedOffPrice": 7999
+    },
+    {
+      "id": "6",
+      "imageURL": "https://m.media-amazon.com/images/I/312WzWap4vL._SX300_SY300_QL70_FMwebp_.jpg",
+      "brand": "JBL",
+      "product": "JBL Wave Buds in-Ear Wireless Earbuds (TWS)",
+      "category": "JBL Buds",
+      "price": 2239,
+      "strikedOffPrice": 3999
+    },
+    {
+      "id": "7",
+      "imageURL": "https://m.media-amazon.com/images/I/51ePBbIYSgL._SX569_.jpg",
+      "brand": "JBL",
+      "product": "JBL Tune 235NC in Ear Wireless ANC Earbuds (TWS)",
+      "category": "JBL EAR Wireless",
+      "price": 3799,
+      "strikedOffPrice": 9999
+    },
+    {
+      "id": "8",
+      "imageURL": "https://m.media-amazon.com/images/I/61WAxDWqh3L._SY450_.jpg",
+      "brand": "Noise",
+      "product": "Noise Newly Launched Buds N1 in-Ear Truly Wireless Earbuds ",
+      "category": "Noise Buds",
+      "price": 1298,
+      "strikedOffPrice": 3499
+    },
+    {
+      "id": "9",
+      "imageURL": "https://m.media-amazon.com/images/I/31Gj0dpoQAL._SX300_SY300_QL70_FMwebp_.jpg",
+      "brand": "Noise",
+      "product": "Noise Newly Launched Three Wireless On-Ear Headphones",
+      "category": "Noise Headphones",
+      "price": 1998,
+      "strikedOffPrice": 5999
+    },
+    {
+      "id": "10",
+      "imageURL": "https://m.media-amazon.com/images/I/71ISIssoVFL._SY450_.jpg",
+      "brand": "boAt",
+      "product": "boAt Nirvana 751 ANC Bluetooth Wireless Over Ear Headphones",
+      "category": "boAt Headphones",
+      "price": 4499,
+      "strikedOffPrice": 7999
+    },
+    {
+      "id": "11",
+      "imageURL": "https://m.media-amazon.com/images/I/411q+N-jWBL._SY300_SX300_.jpg",
+      "brand": "Skullcandy",
+      "product": "Skullcandy Cassette On-Ear Wireless Headphones",
+      "category": "Headphones",
+      "price": 2798,
+      "strikedOffPrice": 7999
+    },
+    {
+      "id": "12",
+      "imageURL": "https://m.media-amazon.com/images/I/61F5SXdi9jL._SL1500_.jpg",
+      "brand": "boAt",
+      "product": "boAt Rockerz 550 Bluetooth Wireless Over Ear Headphones ",
+      "category": "boAt Headphones",
+      "price": 2999,
+      "strikedOffPrice": 4999
+    },
+    {
+      "id": "13",
+      "imageURL": "https://m.media-amazon.com/images/I/415MTnMFwFL._SX300_SY300_QL70_FMwebp_.jpg",
+      "brand": "Boult",
+      "product": "Boult x Mustang Derby Newly Launched Truly Wireless in Ear Earbuds ",
+      "category": "Boult Earbuds",
+      "price": 1299,
+      "strikedOffPrice": 5999
+    },
+    {
+      "id": "14",
+      "imageURL": "https://m.media-amazon.com/images/I/41DM+FY-SuL._SY300_SX300_.jpg",
+      "brand": "boAt",
+      "product": "boAt Airdopes 120 TWS Earbuds with in-Ear Detection",
+      "category": "boAt Earbuds",
+      "price": 1599,
+      "strikedOffPrice": 4999
+    },
+    {
+      "id": "15",
+      "imageURL": "https://m.media-amazon.com/images/I/31j5zmbapBL._SX300_SY300_QL70_FMwebp_.jpg",
+      "brand": "OnePlus",
+      "product": "OnePlus Nord Buds 2r True Wireless ",
+      "category": "OnePlus Earbuds ",
+      "price": 1998,
+      "strikedOffPrice": 2999
+    },
+    {
+      "id": "16",
+      "imageURL": "https://m.media-amazon.com/images/I/21mrtoQkHfL._SY445_SX342_QL70_FMwebp_.jpg",
+      "brand": "Oppo",
+      "product": "Oppo Enco Air2i Bluetooth Truly Wireless in-Ear Earbuds",
+      "category": "Oppo Earbuds",
+      "price": 1799,
+      "strikedOffPrice": 3999
+    },
+    {
+      "id": "17",
+      "imageURL": "https://m.media-amazon.com/images/I/61hORBvpEzL._SX679_.jpg",
+      "brand": "OPPO",
+      "product": "OPPO Enco Air3 Pro True Wireless in Ear Earbuds ",
+      "category": "OPPO Earbuds",
+      "price": 4299,
+      "strikedOffPrice": 7299
+    },
+    {
+      "id": "18",
+      "imageURL": "https://m.media-amazon.com/images/I/31uQjRuF5LL._SX300_SY300_QL70_FMwebp_.jpg",
+      "brand": "realme",
+      "product": "realme Buds T300 TWS Earbuds",
+      "category": "realme Earbuds",
+      "price": 2095,
+      "strikedOffPrice": 3999
+    },
+    {
+      "id": "19",
+      "imageURL": "https://m.media-amazon.com/images/I/3179+2Ht+FL._SY300_SX300_.jpg",
+      "brand": "Bang & Olufsen",
+      "product": "Bang & Olufsen Beoplay EX - Wireless Bluetooth Earphones",
+      "gender": "male",
+      "category": "Bang & Olufsen Earphones",
+      "price": 89075,
+      "strikedOffPrice": 115075
+    },
+    {
+      "id": "20",
+      "imageURL": "https://m.media-amazon.com/images/I/41nHbwQO4GL._SX300_SY300_QL70_FMwebp_.jpg",
+      "brand": "HIFIMAN",
+      "product": "HIFIMAN SVANAR Wireless Noise Cancelling Bluetooth in-Ear Hi-Fi Earphones ",
+      "category": "HIFIMAN Earphones",
+      "price": 110881,
+      "strikedOffPrice": 148881
+    },
+    {
+      "id": "21",
+      "imageURL": "https://m.media-amazon.com/images/I/31K+mnegQVL._SY300_SX300_.jpg",
+      "brand": "Bose",
+      "product": "Bose NEW QuietComfort Ultra Wireless Noise Cancelling Earbuds",
+      "category": "Bose Earbuds",
+      "price": 25900,
+      "strikedOffPrice": 30999
+    },
+    {
+      "id": "22",
+      "imageURL": "https://m.media-amazon.com/images/I/31OY5Kup6aL._SX300_SY300_QL70_FMwebp_.jpg",
+      "brand": "Sony",
+      "product": "Sony WF-1000XM5 Wireless The Best Noise Cancelling Earbuds",
+      "gender": "male",
+      "category": "Sony Earbuds",
+      "price": 22990,
+      "strikedOffPrice": 29990
+    },
+    {
+      "id": "23",
+      "imageURL": "https://in.nothing.tech/cdn/shop/files/Let_s_Play_-_Ear_a_-_Case_Closed_-white_960x.png?v=1713322292",
+      "brand": "Nothing",
+      "product": "Nothing Ear (a)",
+      "category": "Nothing Earbuds",
+      "price": 9999,
+      "strikedOffPrice": 12500
+    },
+    {
+      "id": "24",
+      "imageURL": "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-louis-vuitton-horizon-light-up-earphones-black-high-tech-objects-and-accessories--QAB210_PM2_Front%20view.png?wid=730&hei=730",
+      "brand": "Louis Vuitton",
+      "product": "Louis Vuitton Horizon Light Up Earphones",
+      "category": "Louis Vuitton Earphones",
+      "price": 140204,
+      "strikedOffPrice": 145999
+    }
+  ],
+  "cart": [
+    
+  ]
+}
