@@ -178,28 +178,6 @@ $(document).ready(function() {
 
 let arr = []
 
-// document.getElementById("productForm").addEventListener("submit",(e)=>{
-//     e.preventDefault()
-//     let obj = {
-//         title : document.getElementById("title").value,
-//         img : document.getElementById("img").value,
-//         price : document.getElementById("price").value
-//     }
-//     fetch("http://localhost:3000/product",{
-//         method : 'POST',
-//         headers :{
-//             'Content-type' : 'application/json'
-//         },
-//         body : JSON.stringify(obj)
-//     })
-//     .then((res)=>res.json())
-//     .then((res)=>{
-//         console.log(res)
-//     })
-//     .catch((er)=>{
-//         console.log(er)
-//     })
-// })
 
 function fet(){
     fetch("https://mock-server-app-4tp9.onrender.com/product")
@@ -218,7 +196,8 @@ function fet(){
 
 
 function view(arr){
-    console.log(arr)
+    // console.log(arr)
+    
    return arr.map((el)=>{
     let dis= Math.floor(
         ((el.strikedOffPrice - el.price) / el.strikedOffPrice) * 100)
@@ -260,79 +239,22 @@ function view(arr){
 
 fet()
 
-// function del(i){
 
-//     fetch(`http://localhost:3000/product/${i}`,{
-//         method : 'DELETE',
-//         headers :{
-//             'Content-type' : 'application/json'
-//         }
-//     })
-//     .then((res)=>res.json())
-//     .then((res)=>{
-//         console.log(res)
-//     })
-//     .catch((er)=>{
-//         console.log(er)
-//     })
-
-
-
-// }
-
-// function edit(i){
-//     document.getElementById("update").style.display = "block"
-//     fetch(`http://localhost:3000/product/${i}`)
-//     .then((res)=>{
-//         return res.json()
-//     })
-//     .then((res)=>{
-         
-//         document.getElementById("title").value = res.title
-//         document.getElementById("price").value = res.price
-//         document.getElementById("img").value = res.img
-//         document.getElementById("update").addEventListener("click",()=>{
-//             let obj = {
-//                 title : document.getElementById("title").value,
-//                 img : document.getElementById("img").value,
-//                 price : document.getElementById("price").value
-//             }
-//             fetch(`http://localhost:3000/product/${res.id}`,{
-//                 method : "PUT",
-//                 headers : {
-//                     'Content-Type' : "application/json"
-//                 },
-//                 body : JSON.stringify(obj)
-//             })
-//             .then((res)=>{
-//                 return res.json()
-//             })
-//             .then((res)=>{
-//                 console.log(res)
-//             })
-//         })
-//     })
-//     .catch((err)=>{
-//         console.log(err)
-//     })
-// }
-
-
-// function single(id){
-//     window.location.href = "singleProduct.html"
-//     localStorage.setItem("id",JSON.stringify(id))
-// }
-
-document.getElementById("sort").addEventListener("change",()=>{
-   console.log(document.getElementById("sort").value)
-    if(document.getElementById("sort").value=="asc")
-    {
-        let low = arr.sort((a,b)=>+a.price - +b.price)
-        document.getElementById("data").innerHTML = view(low )
-    }
-    else if(document.getElementById("sort").value=="desc")
-    {
-        let d = arr.sort((a,b)=>+b.price-+a.price)
-        document.getElementById("data").innerHTML = view(d)
-    }
+document.getElementById("h").addEventListener("change",()=>{
+    document.getElementById("l").checked = false;
+    if(document.getElementById("h").value=="high")
+            {
+                let d = arr.sort((a,b)=>+b.price-+a.price)
+                document.getElementById("data").innerHTML = view(d)
+            }
 })
+
+document.getElementById("l").addEventListener("change",()=>{
+    document.getElementById("h").checked = false;
+    if(document.getElementById("l").value=="low")
+            {
+                let low = arr.sort((a,b)=>+a.price - +b.price)
+                document.getElementById("data").innerHTML = view(low)
+            }
+})
+
